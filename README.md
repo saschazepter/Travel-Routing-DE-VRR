@@ -1,8 +1,8 @@
 # efa - Commandline Public Transit Routing Interface
 
-efa is a commandline client and Perl module for EFA public transit routing
+**efa** is a commandline client and Perl module for EFA public transit routing
 interfaces such as [efa.vrr.de](https://efa.vrr.de). See the
-[Travel::Routing::DE::VRR homepage](https://finalrewind.org/projects/Travel-Routing-DE-VRR/)
+[Travel::Routing::DE::EFA homepage](https://finalrewind.org/projects/Travel-Routing-DE-VRR/)
 for details.
 
 ## Installation
@@ -47,7 +47,7 @@ sudo apt remove libtravel-routing-de-vrr-perl
 
 ### Installation from CPAN
 
-Travel::Routing::DE::VRR releases are published on the Comprehensive Perl
+Travel::Routing::DE::EFA releases are published on the Comprehensive Perl
 Archive Network (CPAN) and can be installed using standard Perl module
 tools such as cpanminus.
 
@@ -62,7 +62,7 @@ libraries with development headers:
 Now, use a tool of your choice to install the module. Minimum working example:
 
 ```
-cpanm Travel::Routing::DE::VRR
+cpanm Travel::Routing::DE::EFA
 ```
 
 If you run this as root, it will install script and module to `/usr/local` by
@@ -133,7 +133,8 @@ Installation:
 docker pull derfnull/efa:latest
 ```
 
-Use it by prefixing efa commands with `docker run --rm derfnull/efa:latest`, like so:
+Use it by prefixing efa commands with `docker run --rm derfnull/efa:latest`,
+like so:
 
 ```
 docker run --rm derfnull/efa:latest --version
@@ -141,3 +142,12 @@ docker run --rm derfnull/efa:latest --version
 
 Documentation is not available in this image. Please refer to the
 [online efa manual](https://man.finalrewind.org/1/efa/) instead.
+
+## References
+
+Mirrors of the efa / Travel::Routing::DE::EFA repository are available at
+
+* [Chaosdorf](https://chaosdorf.de/git/derf/Travel-Routing-DE-EFA)
+* [Codeberg](https://codeberg.org/derf/Travel-Routing-DE-EFA/)
+* [Finalrewind](https://git.finalrewind.org/derf/Travel-Routing-DE-EFA/)
+* [GitHub](https://github.com/derf/Travel-Routing-DE-EFA)
